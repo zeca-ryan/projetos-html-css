@@ -1,0 +1,1 @@
+Infelizmente ainda não estamos recebendo currículos, mas obrigado pelo interesse em nossa empresa!
