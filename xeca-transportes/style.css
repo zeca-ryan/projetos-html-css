@@ -32,9 +32,6 @@ section a::after{
 .destaque{
     font-weight: bold;
 }
-.popup > p{
+#imgtc, #imgtm, #wpp, #ig, #e, #hr, #sp, #pay, #ft{
     display: none;
-}
-.popup:hover > p {
-    display:block;
 }

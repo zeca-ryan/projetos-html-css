@@ -16,10 +16,10 @@
             <p>Um grupo de individuos empenhados em trazer o melhor transporte para você, nós somos a <span class="destaque">Xeca Transportes</span> a mais de 10 anos no ramo do transporte buscamos sempre melhorar nossos serviços trazendo diversidade, criatividade e o mais importante Tecnologia.</p>
             <h2><strong>Serviços</strong></h2>
             <ul type="disc">
-                <li class="popup">Transporte de cargas ↷
-                    <p><img src="imagem/carga.png" alt="carga"></p>
-                <li class="popup">Transporte de malotes ↷
-                    <p><img src="imagem/malote.png" alt="malote"></p>
+                <li onclick="clicktc()">Transporte de cargas ↷
+                    <p><img src="imagem/carga.png" alt="carga" id="imgtc"></p>
+                <li onclick="clicktm()">Transporte de malotes ↷
+                    <p><img src="imagem/malote.png" alt="malote" id="imgtm"></p>
             </ul>
             <h2><strong>Frota</strong></h2>
             <ul type="disc">
@@ -34,12 +34,12 @@
                 </ul>
                 <h2><strong>Fale conosco</strong></h2>
                 <ul type="disc">
-                    <li class="popup">Whatsapp
-                        <p>11 9000-0000</p>
-                    <li class="popup">Instagram
-                        <p>@xxxxxxxxxx</p>
-                    <li class="popup">E-mail
-                        <p>xxxxxxxxxx@xxxx.com</p>
+                    <li onclick="clickwpp()">Whatsapp ↷
+                        <p id="wpp">11 9000-0000</p>
+                    <li onclick="clickig()">Instagram ↷
+                        <p id="ig">@xxxxxxxxxx</p>
+                    <li onclick="clicke()">E-mail ↷
+                        <p id="e">xxxxxxxxxx@xxxx.com</p>
                 </ul>
                 <h2><strong>Trabalhe conosco</strong></h2>
                 <ul type="disc">
@@ -53,4 +53,46 @@
         </section>
     </main>
     </body>
+    <script>
+        function clicktc(){
+            if (imgtc.style.display == 'block'){
+                imgtc.style.display = 'none'
+            }
+            else {
+                imgtc.style.display = 'block'
+            }
+        }
+        function clicktm(){
+            if (imgtm.style.display == 'block'){
+                imgtm.style.display = 'none'
+            }
+            else {
+                imgtm.style.display = 'block'
+            }
+        }
+        function clickwpp(){
+            if (wpp.style.display == 'block'){
+                wpp.style.display = 'none'
+            }
+            else {
+                wpp.style.display = 'block'
+            }
+        }
+        function clickig(){
+            if (ig.style.display == 'block'){
+                ig.style.display = 'none'
+            }
+            else {
+                ig.style.display = 'block'
+            }
+        }
+        function clicke(){
+            if (e.style.display == 'block'){
+                e.style.display = 'none'
+            }
+            else {
+                e.style.display = 'block'
+            }
+        }
+    </script>
 </html>
